@@ -2,7 +2,10 @@ VendaCity
 =========
 Sistema de Vendas...
 
-preenchimento das vendas via webService.
+Migração das das vendas via webService.
+Migração dos Produtos;
+Migração das Promoções;
+Calculos de Frete;
 integração com Maps e GPS
 SMS
-Perfil admin e Cliente.
+Perfil Admin e Cliente.
