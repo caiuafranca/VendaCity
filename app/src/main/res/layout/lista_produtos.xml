@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frmProdutos"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Salada 01"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="4dp"
+        android:layout_y="8dp" />
+
+    <ImageView
+        android:layout_width="109dp"
+        android:layout_height="72dp"
+        android:id="@+id/imageView"
+        android:layout_x="-3dp"
+        android:layout_y="46dp"
+        android:src="@drawable/ic_salmao" />
+
+    <RatingBar
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_toEndOf="@+id/txtNomeProd01"
+        android:layout_toStartOf="@+id/txtPreco"
+        android:numStars="5"
+        android:rating="3"
+        android:layout_alignBottom="@+id/imgProd"
+        android:layout_toRightOf="@+id/txtNomeProd01"
+        android:layout_x="117dp"
+        android:layout_y="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="R$ 18,00"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="263dp"
+        android:layout_y="36dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprar"
+        android:id="@+id/button"
+        android:layout_x="263dp"
+        android:layout_y="72dp" />
+
+</LinearLayout>
